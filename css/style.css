@@ -1,0 +1,231 @@
+:root {
+    --primary-color: rgb(255 107 43)
+}
+
+.gull {
+    color: var(--primary-color) !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.anker {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+
+nav {
+    margin-bottom: 80px;
+
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.right-box p {
+    color: var(--primary-color);
+}
+
+.right-box h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.name {
+    color: var(--primary-color);
+}
+
+.link1 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.link2 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.left-box img {
+    border-radius: 40px;
+    height: 350px;
+}
+
+.right-box {
+    min-height: 350px;
+}
+
+@media (max-width: 576px) {
+    .left-box img {
+        width: 100%;
+    }
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.one {
+    background-color: rgb(250 250 250);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.one-box-left .para {
+    color: var(--primary-color);
+}
+
+.one-box-left h2 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.second-box {
+    padding: 15px 20px;
+}
+
+.heading p {
+    color: var(--primary-color);
+}
+
+.heading h4 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para1 {
+    color: var(--primary-color, );
+}
+
+.mypic img {
+    height: 500px;
+}
+
+.about {
+    min-height: 500px;
+}
+
+.about h4 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.para-content p {
+    padding: 7px 20px;
+    border-radius: 15px;
+}
+
+.para-content p:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.two {
+    margin-bottom: 80px;
+}
+
+.three {
+    background-color: rgb(24 24 27);
+    padding-top: 50px;
+}
+
+.get {
+    color: var(--primary-color);
+}
+
+.three-left-box h4 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: white !important;
+}
+
+#name {
+    background-color: rgb(39 39 42);
+}
+
+#name::placeholder {
+    color: rgba(220, 211, 211, 0.299);
+}
+
+#email {
+    background-color: rgb(39 39 42);
+}
+
+#email::placeholder {
+    color: rgba(220, 211, 211, 0.299);
+}
+
+#name,
+#email,
+#message {
+    border: 1px solid rgba(220, 211, 211, 0.299);
+}
+
+#message {
+    background-color: rgb(39 39 42);
+}
+
+#message::placeholder {
+    color: rgba(220, 211, 211, 0.299);
+}
+
+.send-link {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.send-link a {
+    text-decoration: none;
+}
+
+.form-control {
+    color: white !important;
+}
+
+.portfolio-box p {
+    color: var(--primary-color);
+}
+
+.portfolio-box h2 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.live-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.live-link:hover {
+    color: white !important;
+}
+
+.image-box {
+    margin-bottom: 50px !important;
+}
+
+html,
+body {
+    
+    overflow-x: hidden;}
